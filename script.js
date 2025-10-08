@@ -6,7 +6,7 @@ boxs.forEach((box) => {
         e.preventDefault();
     });
 
-    box.addEventListener("drop",()=>{
+    box.addEventListener("drop", () => {
         box.appendChild(img);
-    })
+    });
 });
